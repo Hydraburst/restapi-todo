@@ -21,9 +21,9 @@ export default function ToDo(props) {
           {props.todo.text}
         </p>
       </div>
-      <div className={styles['delete']}>
+      <div className="delete">
         <TiDelete
-          className={styles['delete-item']}
+          className="delete-item"
           onClick={(e) => onDeleteTodoClicked(e, props.removeTask)}
         />
       </div>
